@@ -371,7 +371,7 @@ def home_ezik_prod():
 #Домик Лосяша
 def home_los():
     os.system('cls')
-    r = """                                   &&&&              &&&                                            
+    r = """                       &&&&              &&&                                            
                                    &$X$&&           &$$&                     &&&                    
                                    &&XxX&&         &$$$&                   &&&&                     
                                     &$xXX$&&      &$$X$&                 &&$$&                      
@@ -849,11 +849,10 @@ def main_menu():
         prs("")
         prs("")
         prs("")
-        prs("")
         go_menu = input("Нажмите [ENTER], чтобы вернуться в главное меню ")
         
-        if go_menu == "1337":
-            print("Ах, да. Читы активируются с помощью кода «1337»")
+        if go_menu == "IDDQD":
+            print("Ах, да. Читы активируются с помощью кода «IDDQD»")
             time.sleep(3)
             os.system('cls')
             main_menu()
