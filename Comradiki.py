@@ -199,7 +199,7 @@ def outside():
 #Домик Ёжика 1 часть
 def home_ezik():
     os.system('cls')
-    ascii_art = """                                                    &&&&&                                                                                         
+    ascii_art = """                                  &&&&&                                                                                         
                                                 &$$&&$xX$&&$$$&&                                                                                  
                                                &Xx+X$&x+$&Xx+x$$$$                                                                                
                                                 &$x+x$X+X$x+x$x++X$                                                                               
