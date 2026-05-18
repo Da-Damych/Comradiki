@@ -10,4 +10,4 @@
 
 ### Исходный код
 ```bash
-python Komradiki.py
+python Comradiki.py
