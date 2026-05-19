@@ -59,7 +59,7 @@ class Battle:
     def hack_robot(self):
         robots = [e for e in self.enemies if e.type == "робот"]
         if not robots:
-            print("Ёлки-иголки! Нет роботов для взлома!")
+            print("Ёлки-иголки! Нет роботов для взлома! ")
             return False
         
         target = random.choice(robots)
