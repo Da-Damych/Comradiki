@@ -2,6 +2,7 @@ import time
 import random
 import os
 import textwrap
+import msvcrt
 
 print("  ")
 print(" ")
@@ -147,8 +148,13 @@ class Battle:
 
 #Постепенный вывод текста
 def prs(text, delay=0.05):
-    for char in text:
-        print(char, end='', flush=True) 
+    for i, char in enumerate(text):
+        if msvcrt.kbhit():
+            key = msvcrt.getch()
+            if key == b' ':
+                print(text[i:], end='', flush=True)
+                break
+        print(char, end='', flush=True)
         time.sleep(delay)
     print()
 
