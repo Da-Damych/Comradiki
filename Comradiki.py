@@ -648,7 +648,7 @@ def home_pin():
     
     if pin_prod == "1337":
         print("Чит-код активирован! Базовый Урон +10000")
-        krosh.attack_power = 10000
+        krosh.attack_power = 100000
         krosh.health = 10000
         time.sleep(3)
         combat_pin()
