@@ -1,0 +1,7 @@
+{
+    "secret": false,
+    "diplomatic_good": false,
+    "diplomatic_bad": false,
+    "military": false,
+    "capitalist": false
+}
