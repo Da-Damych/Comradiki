@@ -16,6 +16,9 @@ print("")
 print("")
 start = input("Нажмите [ENTER] для продолжения")
 os.system('cls')
+print("")
+print("")
+print("[Пробел], чтобы пропустить анимацию диалога")
 
 #Главный герой
 class Hero:
